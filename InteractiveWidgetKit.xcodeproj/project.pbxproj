@@ -19,6 +19,8 @@
 		DDECE21D2B4D7D2900199347 /* ToDoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DDECE20D2B4D7D2700199347 /* ToDoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DDECE2242B4D7D7A00199347 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECE2232B4D7D7A00199347 /* ToDo.swift */; };
 		DDECE2252B4D7EDE00199347 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECE2232B4D7D7A00199347 /* ToDo.swift */; };
+		DDECE2272B4D9F5A00199347 /* CompleteToDoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECE2262B4D9F5A00199347 /* CompleteToDoIntent.swift */; };
+		DDECE2282B4DA16000199347 /* CompleteToDoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECE2262B4D9F5A00199347 /* CompleteToDoIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 		DDECE2182B4D7D2900199347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDECE21A2B4D7D2900199347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDECE2232B4D7D7A00199347 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		DDECE2262B4D9F5A00199347 /* CompleteToDoIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DDECE2232B4D7D7A00199347 /* ToDo.swift */,
+				DDECE2262B4D9F5A00199347 /* CompleteToDoIntent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDECE2272B4D9F5A00199347 /* CompleteToDoIntent.swift in Sources */,
 				DDECE2242B4D7D7A00199347 /* ToDo.swift in Sources */,
 				DDECE1FE2B4D7CF400199347 /* ContentView.swift in Sources */,
 				DDECE1FC2B4D7CF400199347 /* InteractiveWidgetKitApp.swift in Sources */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDECE2282B4DA16000199347 /* CompleteToDoIntent.swift in Sources */,
 				DDECE2252B4D7EDE00199347 /* ToDo.swift in Sources */,
 				DDECE2152B4D7D2700199347 /* ToDoWidgetBundle.swift in Sources */,
 				DDECE2172B4D7D2700199347 /* ToDoWidget.swift in Sources */,

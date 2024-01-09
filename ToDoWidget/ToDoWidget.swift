@@ -43,10 +43,15 @@ struct ToDoWidgetEntryView: View {
             VStack (alignment: .leading) {
                 ForEach(entry.toDoDisplay) { toDo in
                     HStack {
-                        Image(systemName: toDo.isDone ? "checkmark.circle.fill" : "circle")
-                            .foregroundColor(toDo.isDone ? .green : .red)
-                        Text(toDo.name).lineLimit(1)
-                            .strikethrough(toDo.isDone)
+                        Button(intent: CompleteToDoIntent(id: toDo.id)) {
+                            Image(systemName: toDo.isDone ? "checkmark.circle.fill" : "circle")
+                                .foregroundColor(toDo.isDone ? .green : .red)
+                        }.buttonStyle(.plain)
+                        VStack(alignment: .leading) {
+                            Text(toDo.name).lineLimit(1)
+                                .strikethrough(toDo.isDone, pattern: .solid)
+
+                        }
                     }
                     Divider()
                 }
